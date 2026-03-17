@@ -2,9 +2,9 @@
   "_meta": {
     "generated_by": "c3-mcp-api/src/engines/gen-deps.ts",
     "api_route": "GET /c3-api/deps/front",
-    "generated_at": "2026-03-16T18:01:29.574Z",
+    "generated_at": "2026-03-17T12:37:10.781Z",
     "total_services": 23,
-    "total_packages": 93
+    "total_packages": 90
   },
   "node": {
     "merged": {
@@ -12,7 +12,6 @@
         "@floating-ui/vue": "^1.0.0",
         "@formkit/auto-animate": "^0.8.0",
         "@mapbox/togeojson": "^0.16.2",
-        "@nuxt/icon": "^1.0.0",
         "@orama/orama": "^2.0.0",
         "@sanity/client": "^6.12.0",
         "@sanity/image-url": "^1.0.2",
@@ -53,7 +52,6 @@
         "web-vitals": "^3.5.0"
       },
       "devDependencies": {
-        "@nuxtjs/tailwindcss": "^6.11.4",
         "@sveltejs/adapter-auto": "^7.0.0",
         "@sveltejs/adapter-static": "^3.0.10",
         "@sveltejs/kit": "^2.47.1",
@@ -79,7 +77,6 @@
         "eslint-plugin-svelte": "^3.13.0",
         "eslint-plugin-vue": "^9.20.0",
         "marked": "^15.0.12",
-        "nuxt": "^3.10.0",
         "postcss": "^8.5.6",
         "prettier": "^3.6.2",
         "prettier-plugin-svelte": "^3.4.0",
@@ -92,6 +89,7 @@
         "tailwindcss": "^4.1.18",
         "tailwindcss-animate": "^1.0.7",
         "terser": "^5.44.1",
+        "three": "^0.162.0",
         "typescript": "^5.9.3",
         "unplugin-auto-import": "^0.17.0",
         "unplugin-vue-components": "^0.26.0",
@@ -102,7 +100,6 @@
         "vite-ssg": "^0.23.0",
         "vitest": "^1.3.0",
         "vue": "^3.5.27",
-        "vue-router": "^4.2.5",
         "vue-tsc": "^3.2.4"
       }
     },
@@ -228,16 +225,13 @@
         "service": "Astro",
         "folder": "c-Tools/astro",
         "category": "unknown",
-        "dependencies": {
-          "@nuxt/icon": "^1.0.0"
-        },
+        "dependencies": {},
         "devDependencies": {
-          "@nuxtjs/tailwindcss": "^6.11.4",
-          "nuxt": "^3.10.0",
-          "sass": "^1.70.0",
+          "esbuild": "^0.20.2",
+          "sass": "^1.77.0",
+          "three": "^0.162.0",
           "typescript": "^5.3.3",
-          "vue": "^3.4.15",
-          "vue-router": "^4.2.5"
+          "@types/three": "^0.162.0"
         }
       },
       {

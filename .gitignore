@@ -1,0 +1,27 @@
+# ══════════════════════════════════════════════════════════
+# REPO: front-data (PUBLIC)
+# https://github.com/diegonmarcos/front-data
+# ══════════════════════════════════════════════════════════
+
+# ── Secrets & Credentials ──
+.secrets
+*.secrets
+**/.secrets
+.secrets.d/
+**/.secrets.d/
+.env
+.env.*
+**/.env
+**/.env.*
+!.env.example
+*.pem
+*.key
+*.p12
+*.pfx
+*.token
+*credentials*.json
+*_token.json
+*_tokens.json
+*.asc
+*.age
+!*.age.pub

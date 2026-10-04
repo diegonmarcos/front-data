@@ -2,5 +2,9 @@
   {
     "file": "front-deps.json",
     "name": "front deps"
+  },
+  {
+    "file": "front-topology.json",
+    "name": "front topology"
   }
 ]

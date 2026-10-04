@@ -1,0 +1,16 @@
+# Repo-level git config — deployed by 9_others/build.sh
+# Managed declaratively: edit src/gitconfig, run build.sh, commit.
+[push]
+	recurseSubmodules = on-demand
+[submodule]
+	recurse = true
+[fetch]
+	recurseSubmodules = on-demand
+[core]
+	hooksPath = 0_git/dist/hooks
+[pull]
+	rebase = true
+[rebase]
+	autoStash = true
+[alias]
+	sync = !./1_cicd/dist/scripts/cloud-git-sync.sh
